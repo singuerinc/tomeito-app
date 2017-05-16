@@ -1,0 +1,17 @@
+{
+  "name": "tomeito-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build && next export",
+    "dev": "next",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "beta",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "tachyons": "4.7.0"
+  }
+}
