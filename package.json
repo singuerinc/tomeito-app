@@ -1,17 +1,24 @@
 {
   "name": "tomeito-site",
   "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "7"
+  },
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "build": "next build && next export",
-    "dev": "next",
-    "start": "next start"
+    "start": "node index.js"
   },
   "dependencies": {
-    "next": "beta",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "tachyons": "4.7.0"
-  }
+    "express": "^4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/tomeito.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT"
 }
