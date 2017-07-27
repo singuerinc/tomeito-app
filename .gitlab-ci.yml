@@ -5,7 +5,7 @@ pages:
   script:
   - sed -i -e "s/\$ACME_FILE_NAME/$ACME_FILE_NAME/" ./acme_file_template
   - sed -i -e "s/\$ACME_FILE_CONTENT/$ACME_FILE_CONTENT/" ./acme_file_template
-  - mv ./acme_file_template ./$ACME_FILE_NAME
+  - mv ./acme_file_template ./public/.well-known/acme-challenge/$ACME_FILE_NAME
   artifacts:
     paths:
     - public
