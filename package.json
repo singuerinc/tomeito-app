@@ -2,9 +2,6 @@
   "name": "tomeito-site",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "7"
-  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -12,13 +9,6 @@
   "dependencies": {
     "express": "^4.15.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://git.heroku.com/tomeito.git"
-  },
-  "keywords": [
-    "node",
-    "heroku"
-  ],
+  "keywords": ["node"],
   "license": "MIT"
 }

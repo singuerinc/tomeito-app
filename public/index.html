@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Tomeito - Pomodoro timer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./tachyons.min.css">
 </head>
+
 <body>
-<div class="w-100 sans-serif bg-dark-red">
-    <section class="flex vh-100 items-center">
-        <div class="mh2 mh4-m mh6-l">
-            <h3 class="f-5 f-5-m f-6-l ma0 mb3 lh-solid normal near-white">Simple, elegant, tasty.</h3>
-            <div class="f5 ttu fw2 near-black"><span class="fw5 pr1">Tomeito</span>Pomodoro timer</div>
-            <iframe class="mv2 mv4-ns db" src="./tomeito-app/index.html" width="100%" height="30" frameborder="0"></iframe>
-            <a class="link dib f4 fw2 white-60" target="_blank" href="/releases/darwin/latest/tomeito.zip" title="Download Tomeito">Download</a>
-        </div>
-    </section>
-    <a target="_blank" href="https://twitter.com/singuerinc" class="link fw1 white-30 fixed bottom-1 right-1">@singuerinc</a>
-</div>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
+    <div class="w-100 sans-serif near-white">
+        <section class="flex vh-100 items-center">
+            <div class="mh2 mh4-m mh6-l">
+                <h3 class="f-5 f-5-m f-6-l ma0 mb3 lh-solid normal red">Simple, elegant, tasty.</h3>
+                <div class="f5 ttu fw2 near-black">
+                    <span class="fw5 pr1">Tomeito</span>
+                    <span>Pomodoro timer</span>
+                </div>
+                <iframe class="mv2 mv4-ns db" src="./tomeito-app/index.html" width="300" height="30" frameborder="0"></iframe>
+                <a class="link dib f4 fw5 black-60" target="_blank" href="/releases/darwin/latest/tomeito.zip" title="Download Tomeito">DOWNLOAD</a>
+            </div>
+        </section>
+        <a target="_blank" href="https://twitter.com/singuerinc" class="link fw1 black-30 fixed bottom-1 right-1">@singuerinc</a>
+    </div>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-881783-17', 'auto');
-    ga('send', 'pageview');
-</script>
+        ga('create', 'UA-881783-17', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
+
 </html>
