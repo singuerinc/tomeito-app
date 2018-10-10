@@ -1,8 +1,0 @@
-{
-  "name": "Tomeito Site",
-  "description": "",
-  "repository": "",
-  "logo": "",
-  "keywords": ["node", "heroku"],
-  "image": "heroku/nodejs"
-}

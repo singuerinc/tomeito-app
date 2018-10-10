@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npx serve public"
   },
-  "dependencies": {
-    "express": "^4.15.2"
-  },
-  "keywords": ["node"],
+  "keywords": [
+    "node"
+  ],
   "license": "MIT"
 }

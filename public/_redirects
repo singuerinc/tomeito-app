@@ -1,2 +1,0 @@
-# Redirect to Amazon S3
-/releases/darwin/latest/tomeito.zip https://s3-eu-west-1.amazonaws.com/singuerinc--tomeito-app/releases/darwin/latest/tomeito.zip 301
